@@ -1,0 +1,1 @@
+{"version":3,"file":"logo.js","sources":["../../HBuilderX.4.57.2025032507/HBuilderX/plugins/uniapp-cli-vite/uniPage:/cGFnZXMvbG9nby9sb2dvLnZ1ZQ"],"sourcesContent":["import MiniProgramPage from 'G:/uniapp/english/pages/logo/logo.vue'\nwx.createPage(MiniProgramPage)"],"names":[],"mappings":";;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;AACA,GAAG,WAAW,eAAe;"}

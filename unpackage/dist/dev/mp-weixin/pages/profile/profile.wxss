@@ -1,0 +1,162 @@
+
+page {
+    background-color: #F8F9FA;
+}
+.container {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+.profile-header {
+    text-align: center;
+    padding: 64rpx 32rpx;
+}
+.profile-avatar {
+    width: 160rpx;
+    height: 160rpx;
+    border-radius: 50%;
+    margin: 0 auto 32rpx;
+    border: 6rpx solid #4A90E2;
+}
+.profile-name {
+    font-weight: bold;
+    font-size: 40rpx;
+    margin-bottom: 16rpx;
+}
+.profile-id {
+    color: #8f8f94;
+    margin-bottom: 48rpx;
+    font-size: 28rpx;
+}
+.profile-stats {
+    text-align: center;
+}
+.count-number {
+    font-size: 48rpx;
+    font-weight: bold;
+}
+.stats-label {
+    font-size: 24rpx;
+    color: #8f8f94;
+    font-weight: normal;
+}
+.stats-row {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 48rpx;
+    padding: 0 24rpx;
+}
+.stat-card {
+    text-align: center;
+    padding: 24rpx;
+    background: white;
+    border-radius: 16rpx;
+    box-shadow: 0 8rpx 16rpx rgba(0, 0, 0, 0.05);
+    width: 30%;
+}
+.stat-number {
+    font-size: 48rpx;
+    font-weight: bold;
+    margin-bottom: 10rpx;
+}
+.primary-color {
+    color: #4A90E2;
+}
+.secondary-color {
+    color: #F5A623;
+}
+.card {
+    background: white;
+    border-radius: 16rpx;
+    padding: 32rpx;
+    margin: 0 24rpx 24rpx;
+    box-shadow: 0 8rpx 16rpx rgba(0, 0, 0, 0.05);
+}
+.card-title {
+    font-weight: bold;
+    margin-bottom: 32rpx;
+    color: #333333;
+    font-size: 32rpx;
+}
+.progress-row {
+    display: flex;
+    align-items: center;
+}
+.progress-container {
+    flex: 1;
+}
+.progress-bg {
+    height: 16rpx;
+    background: #E0E0E0;
+    border-radius: 8rpx;
+    overflow: hidden;
+}
+.progress-value {
+    height: 100%;
+    background: #4A90E2;
+    width: 65%;
+}
+.progress-labels {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 8rpx;
+    font-size: 24rpx;
+    color: #8f8f94;
+}
+.progress-percent {
+    margin-left: 32rpx;
+    text-align: right;
+}
+.percent-value {
+    font-weight: bold;
+    font-size: 32rpx;
+}
+.setting-list {
+    margin-top: 48rpx;
+    padding-bottom: 120rpx; /* 为底部tabBar预留空间 */
+}
+.section-title {
+    font-weight: bold;
+    margin: 48rpx 0 16rpx 32rpx;
+    color: #333333;
+    font-size: 32rpx;
+}
+.setting-item {
+    display: flex;
+    align-items: center;
+    padding: 32rpx;
+    background: white;
+    border-bottom: 1px solid #EEEEEE;
+}
+.setting-icon {
+    margin-right: 32rpx;
+    font-size: 36rpx;
+    color: #4A90E2;
+}
+.setting-text {
+    flex: 1;
+    font-size: 30rpx;
+}
+.arrow-icon {
+    color: #8f8f94;
+    font-size: 36rpx;
+}
+.picker-text {
+    color: #4A90E2;
+    font-size: 30rpx;
+}
+.logout-container {
+    margin: 64rpx 32rpx;
+}
+.logout-button {
+    width: 100%;
+    background: #F8F9FA;
+    color: #8f8f94;
+    padding: 24rpx 0;
+    border-radius: 16rpx;
+    font-size: 32rpx;
+}
+.logout-button::after {
+    border: none;
+}
+  

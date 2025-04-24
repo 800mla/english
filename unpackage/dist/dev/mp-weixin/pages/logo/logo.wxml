@@ -1,0 +1,1 @@
+<view class="container data-v-bf9c4896"><view class="quote-en data-v-bf9c4896">{{a}}</view><view class="speak-btn data-v-bf9c4896" bindtap="{{b}}">🔊 </view><view class="quote-cn data-v-bf9c4896">{{c}}</view><button class="login-btn data-v-bf9c4896" bindtap="{{d}}">登录</button></view>
